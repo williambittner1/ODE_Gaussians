@@ -3,6 +3,9 @@ import torch
 from torch import optim
 import time
 
+from gsplat import rasterization
+
+
 
 class SimpleTrainer:
 
