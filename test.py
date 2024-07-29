@@ -1,9 +1,26 @@
-import torch
+# %%
 
-# Define the dimensions of the tensor
-shape = (3, 3, 5)  # Example shape: (depth, height, width)
+import numpy as np
+from PIL import Image
 
-# Create a 3D tensor with random values
-tensor_random = torch.rand(shape)
+# %%
 
-print(tensor_random)
+
+x = np.random.rand(256, 256, 3) * 255
+y = x.astype(np.uint8)
+Image.fromarray(y)
+
+# %%
+
+
+
+
+# %%
+
+
+
+# %%
+
+
+
+# %%
